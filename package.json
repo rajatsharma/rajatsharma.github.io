@@ -1,0 +1,26 @@
+{
+  "name": "rajatsharma.dev",
+  "version": "0.1.0",
+  "main": "index.js",
+  "license": "MIT",
+  "enginite": "1.2.14",
+  "devDependencies": {
+    "@hellpack/eslint-config-hellpack": "^2.2.0",
+    "@regime/static": "0.0.1",
+    "eslint": "^5.15.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "node-sass": "^4.11.0",
+    "prettier": "^1.16.4"
+  },
+  "scripts": {
+    "dev": "regime-static dev",
+    "build": "regime-static build"
+  },
+  "dependencies": {
+    "@elementary/components": "^0.5.4",
+    "react-entypo": "^1.3.0"
+  }
+}
