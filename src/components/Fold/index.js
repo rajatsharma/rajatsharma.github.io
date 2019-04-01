@@ -1,4 +1,4 @@
-import { Flex, Relative, Absolute as _Absulute } from '@elementary/components';
+import { Flex, Relative } from '@elementary/components';
 
 export default ({ children, dark, withHeader: _withHeader }) => (
   <Relative>
