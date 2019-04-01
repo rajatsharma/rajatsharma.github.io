@@ -1,9 +1,10 @@
-import { Flex, Relative, Absolute } from '@elementary/components';
+import { Flex, Relative, Absolute as _Absulute } from '@elementary/components';
 
-export default ({ children, dark, withHeader }) => (
+export default ({ children, dark, withHeader: _withHeader }) => (
   <Relative>
     <Flex
-      bg={dark ? 'black' : 'inherit'}
+      direction="column"
+      bg={dark ? '#0C0F0A' : 'inherit'}
       color={dark ? 'white' : 'black'}
       pb="40px"
     >

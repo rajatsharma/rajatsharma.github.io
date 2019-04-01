@@ -7,6 +7,11 @@ body {
   font-family: 'Inconsolata', monospace;
 }
 
+p {
+  font-family: 'Inconsolata', monospace;
+  font-size: 30px;
+}
+
 .standard-margin {
   margin-left: 90px;
   margin-right: 90px;
@@ -25,45 +30,23 @@ body {
   align-items: center;
   justify-content: space-between;
   border-bottom: solid 5px black;
+}
 
-  h2 {
-    font-size: 24px;
-    font-weight: bolder;
-  }
-
-  .side-links {
-    font-size: 20px;
+.articles {
+  h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
   }
 }
 
-.intro {
-  h2 {
-    font-family: 'Roboto', sans-serif;
-    width: 100%;
-    font-size: 90px;
-    padding-bottom: 5px;
-  }
-
-  p {
-    font-size: 30px;
+.links {
+  .side-featured {
+    grid-area: 1/2/3;
   }
 }
 
 .contact {
-  width: 100%;
   font-family: 'Roboto', sans-serif;
-  h2 {
-    width: 100%;
-    font-size: 90px;
-    padding-bottom: 5px;
-    border-bottom: solid 6px black;
-  }
-
-  ul {
-    padding-inline-start: 0;
-    list-style-type: none;
-    font-size: 45px;
-  }
 }
 
 .hero {

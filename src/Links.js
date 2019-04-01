@@ -2,12 +2,21 @@ import { Grid } from '@elementary/components';
 import ProjectCard from './components/ProjectCard';
 
 export default () => (
-  <Grid gridTemplateColumns="1fr 1fr 1fr 1fr" gridRowGap="20px">
+  <Grid
+    gridTemplateColumns="1fr 1fr"
+    gridTemplateRows="1fr 1fr"
+    gridRowGap="20px"
+    gridColumnGap="20px"
+    mb="40px"
+    className="links"
+  >
     <ProjectCard
+      className="featured"
       dest="Enginite"
       desc="Webpack Config sharing and authoring at its best"
     />
     <ProjectCard
+      className="side-featured"
       dest="Hellpack"
       desc="Generate editorconfig, prettier, eslint config for your next project in seconds"
     />
@@ -41,6 +50,5 @@ export default () => (
     />
     <ProjectCard dest="Rico" desc="A better way to clone a repository" />
     <ProjectCard dest="Shinju" desc="Store data in functional Closures" />
-    <ProjectCard dest="Electronator" desc="Zero to Electron App in minutes" />
   </Grid>
 );
