@@ -1,4 +1,7 @@
-import Helmet from 'helmet.regime';
+import Helmet from 'helmet'; // eslint-disable-line
+import Header from './components/Header';
+import Colophon from './colophon.mdx';
+import Fold from './components/Fold';
 
 function App({ children }) {
   return (
@@ -16,6 +19,11 @@ function App({ children }) {
       </Helmet>
       <Header />
       {children}
+      <Fold>
+        <footer className="standard-margin colophon">
+          <Colophon />
+        </footer>
+      </Fold>
     </>
   );
 }

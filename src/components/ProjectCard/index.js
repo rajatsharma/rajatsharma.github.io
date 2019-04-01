@@ -1,19 +1,15 @@
 import { Flex, Text } from '@elementary/components';
 
-export default ({ details: _details, desc, dest }) => (
+export default ({ details: _details, desc, dest, className }) => (
   <Flex
-    width="180px"
-    bg="black"
-    color="white"
+    bg="white"
+    color="black"
     p="20px"
     f="24px"
     direction="column"
-    border="2px solid #fff"
-    boxShadow="5px 6px 0px #fff"
-    transition="all 0.5s ease"
-    hover={{ boxShadow: 'none' }}
+    className={className}
   >
-    <Text fontWeight="bolder" pb="5px" f="20px !important">
+    <Text fontWeight="bolder" pb="5px" f="20px !important" is="h6">
       {dest}
     </Text>
     <Text f="16px !important">{desc}</Text>

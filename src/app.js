@@ -1,8 +1,9 @@
-import Link from 'Link.regime';
 import './style.scss';
-import ProjectCard from './components/ProjectCard';
+import Fold from './components/Fold';
+import Hero from './components/Hero';
 import Intro from './intro.mdx';
-import Contact from './contact.mdx';
+import Contact from './contact';
+import Articles from './articles.mdx';
 
 export default () => (
   <>
@@ -12,6 +13,9 @@ export default () => (
     <Fold dark>
       <div className="standard-margin intro">
         <Intro />
+      </div>
+      <div className="standard-margin articles">
+        <Articles />
       </div>
     </Fold>
     <Fold>
