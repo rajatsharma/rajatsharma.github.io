@@ -3,7 +3,6 @@ import { Button } from '@elementary/components';
 export default ({ text, onClick = _ => _ }) => (
   <Button
     onClick={_ => onClick()}
-    className="button"
     bg="transparent"
     height="50px"
     f="20px"
