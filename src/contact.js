@@ -21,13 +21,13 @@ export default () => (
       <ExternalFormal href="https://github.com/rajatsharma">
         Github
       </ExternalFormal>
-      <ExternalFormal href="https://www.linkedin.com/in/tyrannodrake/">
+      <ExternalFormal href="https://www.npmjs.com/~rajatsharma">
         npm
       </ExternalFormal>
-      <ExternalFormal href="https://www.linkedin.com/in/tyrannodrake/">
+      <ExternalFormal href="https://stackoverflow.com/users/7137580/rajat-sharma">
         Stack Overflow
       </ExternalFormal>
-      <ExternalFormal href="https://www.linkedin.com/in/tyrannodrake/">
+      <ExternalFormal href="https://dribbble.com/rajatsharma">
         Dribbble
       </ExternalFormal>
       <ExternalFormal href="mailto://rajatsharma034@gmail.com">
