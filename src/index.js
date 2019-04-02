@@ -7,6 +7,7 @@ function App({ children }) {
   return (
     <>
       <Helmet>
+        <html lang="en" />
         <title>rajatsharma.dev</title>
         <meta charSet="utf-8" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
