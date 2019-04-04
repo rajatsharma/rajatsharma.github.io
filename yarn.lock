@@ -729,18 +729,6 @@
     "@elementary/standard" "0.1.6"
     prop-types "^15.6.0"
 
-"@elementary/core@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.npmjs.org/@elementary/core/-/core-0.1.4.tgz#6457ed6c2f54da21e557b1c038b9a8803b399b33"
-  integrity sha512-j5w90W3JlM0ZXgmxmks+zH7eRKWaZM++okFfA6ReaJQGxVrGU3PWgNit9BBHI5Z8zrs4JzqYrc8CmL1HkP4Biw==
-
-"@elementary/proper@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.npmjs.org/@elementary/proper/-/proper-0.2.5.tgz#bb2fe3f593fd474c6223f944b768267e10fc5654"
-  integrity sha512-6oyvBERuioTucSnhq/WyRk3AFzOj9Y0uL0mw0r4S0cXyDjXRbEkqsKD28HqI8hfnOsw782zzMasU/u1oCWzD8A==
-  dependencies:
-    "@elementary/core" "^0.1.4"
-
 "@elementary/standard@0.1.6":
   version "0.1.6"
   resolved "https://registry.npmjs.org/@elementary/standard/-/standard-0.1.6.tgz#9d81d2a9d7431d4191fcc830058081beca2db23e"
@@ -824,13 +812,12 @@
   resolved "https://registry.npmjs.org/@mdx-js/tag/-/tag-0.20.3.tgz#9e2306040b6469248c45a5f5baf44d0014db0493"
   integrity sha512-Co3gUFmNDv9z2LjuvLTpTj2NaOSHFxuoZjohcG0YK/KfECO+Ns9idzThMYjfEDe1vAf4c824rqlBYseedJdFNw==
 
-"@regime/static@^0.0.5-alpha.0":
-  version "0.0.5-alpha.0"
-  resolved "https://registry.npmjs.org/@regime/static/-/static-0.0.5-alpha.0.tgz#c604a9e3a23ae1d095b023942064c714ade16d9e"
-  integrity sha512-IC65IeZ/Mnk80FZ1qUkCsqOazSsldfZzioXtUV3jJPGmGMwBLwIfnd0/Iwx6/+a7r+paUOBzUxzmVsnwEUlSxg==
+"@regime/static@^0.0.5-alpha.1":
+  version "0.0.5-alpha.1"
+  resolved "https://registry.npmjs.org/@regime/static/-/static-0.0.5-alpha.1.tgz#078c58afc548a999413256757861207a1240e05f"
+  integrity sha512-agRlChseW7zZXKFnHjKkSdRV5/HTKexpySDGwGUF7eObOQlc/NNS9fVYZeHsAILSclmp+wkFeaQaeSjDX1KI8w==
   dependencies:
     "@babel/core" "7.1.2"
-    "@elementary/proper" "^0.2.5"
     "@enginite/logger" "^1.2.12"
     "@enginite/override-config-webpack-plugin" "1.2.8"
     "@mdx-js/loader" "^0.20.3"
