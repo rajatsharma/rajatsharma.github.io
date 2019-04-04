@@ -812,10 +812,10 @@
   resolved "https://registry.npmjs.org/@mdx-js/tag/-/tag-0.20.3.tgz#9e2306040b6469248c45a5f5baf44d0014db0493"
   integrity sha512-Co3gUFmNDv9z2LjuvLTpTj2NaOSHFxuoZjohcG0YK/KfECO+Ns9idzThMYjfEDe1vAf4c824rqlBYseedJdFNw==
 
-"@regime/static@^0.0.5-alpha.1":
-  version "0.0.5-alpha.1"
-  resolved "https://registry.npmjs.org/@regime/static/-/static-0.0.5-alpha.1.tgz#078c58afc548a999413256757861207a1240e05f"
-  integrity sha512-agRlChseW7zZXKFnHjKkSdRV5/HTKexpySDGwGUF7eObOQlc/NNS9fVYZeHsAILSclmp+wkFeaQaeSjDX1KI8w==
+"@regime/static@^0.0.5-alpha.2":
+  version "0.0.5-alpha.2"
+  resolved "https://registry.npmjs.org/@regime/static/-/static-0.0.5-alpha.2.tgz#90a9afac5f94f6428cb02ed75d97d257e0a745ee"
+  integrity sha512-xnG+IrdRKum37sj5gtMT+eHqPK+IJ8OzS4zF/8f4FUv0xFDTTjBC3+/SKnphcspQsIZ4qCBScC3M5D/jxSU/lA==
   dependencies:
     "@babel/core" "7.1.2"
     "@enginite/logger" "^1.2.12"
