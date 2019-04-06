@@ -1,5 +1,5 @@
 // eslint-disable-next-line import/no-unresolved
-import styled from 'styled-component';
+import styled from 'styled-components';
 
 export default styled.button`
   background: transparent;
@@ -9,8 +9,9 @@ export default styled.button`
   border: 2px solid #fff;
   box-shadow: 5px 6px 0px #fff;
   color: white;
+  font-family: inherit;
   transition: all 0.5s ease;
-  &:hover: {
+  &:hover {
     border: none;
     box-shadow: none;
     color: black;
