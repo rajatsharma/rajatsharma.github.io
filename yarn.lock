@@ -888,10 +888,10 @@
   resolved "https://registry.npmjs.org/@mdx-js/tag/-/tag-0.20.3.tgz#9e2306040b6469248c45a5f5baf44d0014db0493"
   integrity sha512-Co3gUFmNDv9z2LjuvLTpTj2NaOSHFxuoZjohcG0YK/KfECO+Ns9idzThMYjfEDe1vAf4c824rqlBYseedJdFNw==
 
-"@regime/static@^0.0.5-alpha.3":
-  version "0.0.5-alpha.3"
-  resolved "https://registry.npmjs.org/@regime/static/-/static-0.0.5-alpha.3.tgz#3809addbd84d209de7c6cd6841dd037e3492241a"
-  integrity sha512-KvHtXNxNd+xed05ipWGIEXgSnArQBCTsObfd/Pb3ATM0YrqjxcLYZTD5lV1575Md9rmpBdJHv4oG7q4Uizyilg==
+"@regime/static@^0.0.5-alpha.4":
+  version "0.0.5-alpha.4"
+  resolved "https://registry.npmjs.org/@regime/static/-/static-0.0.5-alpha.4.tgz#76e4c5f35fb63b86386c4fe06d3b73004f4613f0"
+  integrity sha512-cpCYVEhvB5mmqjCyX7Z0pWeaxoDVXnNpKqssnTIYer/456la/6MDxQfMUAWZZC8E8x64OSrz9jDXDU/UetuUTA==
   dependencies:
     "@babel/core" "7.1.2"
     "@emotion/core" "^10.0.10"
