@@ -1,4 +1,3 @@
-import { Text } from '@elementary/components';
 import styled from 'styled-components';
 
 const Card = styled.a`
@@ -11,6 +10,12 @@ const Card = styled.a`
   flex-direction: column;
 `;
 
+const Text = styled.h6`
+  font-weight: bolder;
+  padding-bottom: 5px;
+  font-size: ${props => (props.mid ? '16px !important' : '20px !important')};
+`;
+
 export default ({ details: _details, desc, dest, className, link }) => (
   <Card
     href={`https://github.com/rajatsharma/${link}`}
@@ -18,9 +23,7 @@ export default ({ details: _details, desc, dest, className, link }) => (
     target="_blank"
     rel="noopener noreferrer"
   >
-    <Text fontWeight="bolder" pb="5px" f="20px !important" is="h6">
-      {dest}
-    </Text>
-    <Text f="16px !important">{desc}</Text>
+    <Text>{dest}</Text>
+    <Text mid>{desc}</Text>
   </Card>
 );
