@@ -6,7 +6,7 @@
   "enginite": "1.2.14",
   "devDependencies": {
     "@hellpack/eslint-config-hellpack": "^2.2.0",
-    "@regime/static": "^0.0.5-alpha.2",
+    "@regime/static": "^0.0.5-alpha.3",
     "eslint": "^5.15.3",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
@@ -19,7 +19,5 @@
     "dev": "regime-static dev",
     "build": "regime-static build"
   },
-  "dependencies": {
-    "@elementary/components": "^0.5.4"
-  }
+  "dependencies": {}
 }

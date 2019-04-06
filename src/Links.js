@@ -1,15 +1,17 @@
-import { Grid } from '@elementary/components';
+import styled from 'styled-components';
 import ProjectCard from './components/ProjectCard';
 
+const Grid = styled.div`
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 20px;
+  grid-column-gap: 20px;
+  margin-bottom: 40px;
+`;
+
 export default () => (
-  <Grid
-    gridTemplateColumns="1fr 1fr"
-    gridTemplateRows="1fr 1fr"
-    gridRowGap="20px"
-    gridColumnGap="20px"
-    mb="40px"
-    className="links"
-  >
+  <Grid className="links">
     <ProjectCard
       link="enginite"
       className="featured"

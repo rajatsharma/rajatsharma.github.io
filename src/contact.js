@@ -1,11 +1,16 @@
-import { Flex } from '@elementary/components';
+import styled from 'styled-components';
 import LinedHeading from './components/LinedHeading';
 import ExternalFormal from './components/ExternalLinkFormal';
+
+const Flex = styled.div`
+  display: flex;
+  flex-direction: column;
+`;
 
 export default () => (
   <>
     <LinedHeading>Say Hello.</LinedHeading>
-    <Flex direction="column">
+    <Flex>
       <ExternalFormal href="https://www.linkedin.com/in/tyrannodrake/">
         LinkedIn
       </ExternalFormal>

@@ -1,3 +1,6 @@
-import { Image } from '@elementary/components';
+import styled from 'styled-components';
 
-export default props => <Image height="27px" margin="-2px" {...props} />;
+export default styled.img`
+  height: 27px;
+  margin: -2px;
+`;
