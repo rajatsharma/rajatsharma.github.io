@@ -10,8 +10,15 @@ const Card = styled.a`
   flex-direction: column;
 `;
 
-const Text = styled.h6`
+const Head = styled.h6`
   font-weight: bolder;
+  margin: 0;
+  padding-bottom: 5px;
+  font-size: ${props => (props.mid ? '16px !important' : '20px !important')};
+`;
+
+const Text = styled.p`
+  margin: 0;
   padding-bottom: 5px;
   font-size: ${props => (props.mid ? '16px !important' : '20px !important')};
 `;
@@ -23,7 +30,7 @@ export default ({ details: _details, desc, dest, className, link }) => (
     target="_blank"
     rel="noopener noreferrer"
   >
-    <Text>{dest}</Text>
+    <Head>{dest}</Head>
     <Text mid>{desc}</Text>
   </Card>
 );

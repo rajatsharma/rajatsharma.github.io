@@ -3,8 +3,6 @@ import ProjectCard from './components/ProjectCard';
 
 const Grid = styled.div`
   display: grid;
-  grid-template-rows: 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
   grid-row-gap: 20px;
   grid-column-gap: 20px;
   margin-bottom: 40px;
