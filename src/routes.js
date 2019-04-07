@@ -6,6 +6,7 @@ export default [
     path: '/',
     exact: true,
     component: App,
+    static: true,
   },
   {
     path: '/cv',
