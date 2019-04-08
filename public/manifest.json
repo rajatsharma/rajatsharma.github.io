@@ -1,3 +1,6 @@
 {
-  "name": "Hi, I am Rajat Sharma, Full Stack Web Developer with expertise in React-Redux based SSR Applications, Haskell and Purescript"
+  "name": "Hi, I am Rajat Sharma, Full Stack Web Developer with expertise in React-Redux based SSR Applications, Haskell and Purescript",
+  "short_name": "rajatsharma.dev",
+  "start_url": "./index.html",
+  "background_color": "#fff"
 }
