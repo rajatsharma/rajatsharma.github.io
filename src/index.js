@@ -10,7 +10,6 @@ function App({ children }) {
         <html lang="en" />
         <title>rajatsharma.dev</title>
         <meta charSet="utf-8" />
-        <link rel="manifest" href="/manifest.json" />
         <meta name="theme-color" content="#000" />
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta
