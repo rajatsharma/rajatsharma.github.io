@@ -6,10 +6,6 @@
   "background_color": "#fff",
   "description": "Hi, I am Rajat Sharma, Full Stack Web Developer with expertise in React-Redux based SSR Applications, Haskell and Purescript",
   "theme_color": "#000",
-  "icons": [
-    {
-      "src": "Icons/purescript.png",
-      "sizes": [96, 128, 192, 256, 384, 512, 1024]
-    }
-  ]
+  "icon": "Icons/purescript.png",
+  "iconBackground": "#141619"
 }
