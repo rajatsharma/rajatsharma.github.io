@@ -1,4 +1,5 @@
 import Helmet from 'helmet'; // eslint-disable-line
+import { Provider } from '@elementary/components';
 import Header from './components/Header';
 import Colophon from './colophon.mdx';
 import Fold from './components/Fold';
@@ -24,6 +25,18 @@ function App({ children }) {
           property="og:description"
           content="Hi, I am Rajat Sharma, Full Stack Web Developer with expertise in React-Redux based SSR Applications, Haskell and Purescript"
         />
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-138499061-1"
+        />
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments); }
+                    gtag('js', new Date());
+                    gtag('config', 'UA-138499061-1');`,
+          }}
+        />
         <meta
           property="og:image"
           content="https://avatars2.githubusercontent.com/u/13231434"
@@ -38,13 +51,25 @@ function App({ children }) {
           rel="stylesheet"
         />
       </Helmet>
-      <Header />
-      {children}
-      <Fold>
-        <footer className="standard-margin colophon">
-          <Colophon />
-        </footer>
-      </Fold>
+      <Provider
+        theme={{
+          font: "'Inconsolata', monospace",
+          breakpoints: ['@media(min-width: 540px)'],
+          margins: {
+            mobx: '30px',
+            des: '90px',
+            moby: '60px',
+          },
+        }}
+      >
+        <Header />
+        {children}
+        <Fold>
+          <footer className="colophon">
+            <Colophon />
+          </footer>
+        </Fold>
+      </Provider>
     </>
   );
 }

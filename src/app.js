@@ -1,3 +1,4 @@
+// import { Flex } from '@elementary/components';
 import './style.scss';
 import Fold from './components/Fold';
 import Hero from './components/Hero';
@@ -11,15 +12,15 @@ export default () => (
       <Hero />
     </Fold>
     <Fold dark>
-      <div className="standard-margin intro">
-        <Intro />
-      </div>
-      <div className="standard-margin articles">
+      <Intro />
+    </Fold>
+    <Fold dark>
+      <div className="articles">
         <Articles />
       </div>
     </Fold>
     <Fold>
-      <div className="standard-margin contact">
+      <div className="contact">
         <Contact />
       </div>
     </Fold>

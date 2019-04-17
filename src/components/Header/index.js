@@ -1,3 +1,4 @@
+import { Flex, Link as A } from '@elementary/components';
 import styled from 'styled-components';
 import Link from 'Link';
 
@@ -5,11 +6,6 @@ const SideLinks = styled.div`
   display: flex;
   font-size: 20px;
   font-family: 'Roboto', sans-serif;
-  a {
-    padding-left: 10px;
-    text-decoration: none;
-    color: unset;
-  }
 `;
 
 const MainLink = styled(Link)`
@@ -19,17 +15,31 @@ const MainLink = styled(Link)`
 `;
 
 export default () => (
-  <div className="header standard-margin">
+  <Flex
+    className="header"
+    flex={1}
+    mx={({ theme }) => theme.breakpoints(['30px', '90px'])}
+    alignItems="center"
+    h="100px"
+    justifyContent={({ theme }) =>
+      theme.breakpoints(['space-around', 'space-between'])
+    }
+    direction={({ theme }) => theme.breakpoints(['column', 'row'])}
+  >
     <MainLink to="/">rajatsharma.dev</MainLink>
     <SideLinks>
-      <a
+      <A
         href="https://github.com/rajatsharma"
         target="_blank"
+        textDecoration="none"
         rel="noopener noreferrer"
+        color="unset"
       >
         Github
-      </a>
-      <Link to="/cv">Contact</Link>
+      </A>
+      <A to="/cv" is={Link} pl="10px" textDecoration="none" color="unset">
+        Contact
+      </A>
     </SideLinks>
-  </div>
+  </Flex>
 );

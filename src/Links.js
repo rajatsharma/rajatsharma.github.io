@@ -1,15 +1,20 @@
-import styled from 'styled-components';
+import { Grid } from '@elementary/components';
 import ProjectCard from './components/ProjectCard';
 
-const Grid = styled.div`
-  display: grid;
-  grid-row-gap: 20px;
-  grid-column-gap: 20px;
-  margin-bottom: 40px;
-`;
+// const Grid = styled.div`
+//   display: grid;
+//   grid-row-gap: 20px;
+//   grid-column-gap: 20px;
+//   margin-bottom: 40px;
+// `;
 
 export default () => (
-  <Grid className="links">
+  <Grid
+    gridRowGap="20px"
+    gridColumnGap="20px"
+    mb="40px"
+    gridTemplateColumns={({ theme }) => theme.breakpoints(['1fr', '1fr 1fr'])}
+  >
     <ProjectCard
       link="enginite"
       className="featured"
