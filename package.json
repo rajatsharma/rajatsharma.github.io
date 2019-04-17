@@ -19,5 +19,7 @@
     "dev": "regime-static dev",
     "build": "regime-static build"
   },
-  "dependencies": {}
+  "dependencies": {
+    "@elementary/components": "^0.6.1-alpha.7"
+  }
 }

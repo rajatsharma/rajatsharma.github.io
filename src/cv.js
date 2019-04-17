@@ -1,25 +1,23 @@
 import styled from 'styled-components'; //eslint-disable-line
+import { Text } from '@elementary/components';
 import Fold from './components/Fold';
-
-const CVContainer = styled.div`
-  h3 {
-    font-size: 70px;
-    font-family: 'Roboto', sans-serif;
-  }
-  p {
-    font-family: 'Roboto', sans-serif;
-    color: black;
-    margin-top: -80px;
-    word-break: break-all;
-    font-size: 90px;
-  }
-`;
 
 export default () => (
   <Fold>
-    <CVContainer className="standard-margin">
-      <h3>Mail me at</h3>
-      <p>rajatsharma034@gmail.com</p>
-    </CVContainer>
+    <Text
+      is="h3"
+      className="roboto"
+      f={({ theme }) => theme.breakpoints(['45px', '70px'])}
+    >
+      Mail me at
+    </Text>
+    <Text
+      is="p"
+      style={{ wordBreak: 'break-all' }}
+      f={({ theme }) => theme.breakpoints(['50px', '90px'])}
+      className="roboto"
+    >
+      rajatsharma034@gmail.com
+    </Text>
   </Fold>
 );
