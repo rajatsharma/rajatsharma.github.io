@@ -25,16 +25,6 @@ function App({ children }) {
           property="og:description"
           content="Hi, I am Rajat Sharma, Full Stack Web Developer with expertise in React-Redux based SSR Applications, Haskell and Purescript"
         />
-        <script
-          dangerouslySetInnerHTML={{
-            __html: `(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-ga('create', 'UA-138499061-1', 'auto');
-ga('send', 'pageview');`,
-          }}
-        />
         <meta
           property="og:image"
           content="https://avatars2.githubusercontent.com/u/13231434"
@@ -48,6 +38,7 @@ ga('send', 'pageview');`,
           href="https://fonts.googleapis.com/css?family=Roboto:900"
           rel="stylesheet"
         />
+        <script src="/minga.js" type="text/javascript" />
       </Helmet>
       <Provider
         theme={{

@@ -11,10 +11,10 @@ export default () => (
     <Fold withHeader>
       <Hero />
     </Fold>
-    <Fold dark>
+    <Fold black>
       <Intro />
     </Fold>
-    <Fold dark>
+    <Fold black>
       <div className="articles">
         <Articles />
       </div>
