@@ -20,6 +20,6 @@
     "build": "regime-static build"
   },
   "dependencies": {
-    "@elementary/components": "../elementary/packages/components/"
+    "@elementary/components": "^0.6.1-alpha.8"
   }
 }

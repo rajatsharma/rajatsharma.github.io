@@ -743,8 +743,10 @@
   resolved "https://registry.npmjs.org/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
-"@elementary/components@../elementary/packages/components/":
+"@elementary/components@^0.6.1-alpha.8":
   version "0.6.1-alpha.8"
+  resolved "https://registry.npmjs.org/@elementary/components/-/components-0.6.1-alpha.8.tgz#a0090934d6dce7c8ca5de6d4702588853e0f60ea"
+  integrity sha512-WY6vCi1icVUfbbk2yAL6cZ4AGP1Swc3hxPA8LxaTJEeMUiEh0kjU1x8akY7Or1y8F3N7VWgvblEddQ5uQZEtGg==
   dependencies:
     "@elementary/standard" "^0.6.1-alpha.8"
     "@emotion/core" "^10.0.10"
