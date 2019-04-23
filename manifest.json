@@ -9,5 +9,5 @@
   "icon": "Icons/purescript.png",
   "iconBackground": "#141619",
   "display": "standalone",
-  "cacheExcludes": ["** /*.map", "**/*.pdf"]
+  "cacheExcludes": ["**/*.map", "**/*.pdf"]
 }
