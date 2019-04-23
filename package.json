@@ -6,7 +6,7 @@
   "enginite": "1.2.14",
   "devDependencies": {
     "@hellpack/eslint-config-hellpack": "^2.2.0",
-    "@regime/static": "^0.0.5-alpha.16",
+    "@regime/static": "^0.0.5-alpha.17",
     "eslint": "^5.15.3",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
