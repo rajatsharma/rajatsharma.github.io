@@ -37,8 +37,17 @@ export default () => (
       >
         Github
       </A>
-      <A to="/cv" is={Link} pl="10px" textDecoration="none" color="unset">
+      <A to="/contact" is={Link} pl="10px" textDecoration="none" color="unset">
         Contact
+      </A>
+      <A
+        href="/rajatsharma.pdf"
+        is="a"
+        pl="10px"
+        textDecoration="none"
+        color="unset"
+      >
+        Cv
       </A>
     </SideLinks>
   </Flex>

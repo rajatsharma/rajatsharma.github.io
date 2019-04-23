@@ -9,7 +9,7 @@ export default [
     static: true,
   },
   {
-    path: '/cv',
+    path: '/contact',
     exact: true,
     component: CV,
   },
