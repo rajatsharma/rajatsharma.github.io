@@ -8,5 +8,6 @@
   "theme_color": "#000",
   "icon": "Icons/purescript.png",
   "iconBackground": "#141619",
-  "display": "standalone"
+  "display": "standalone",
+  "cacheExcludes": ["** /*.map", "**/*.pdf"]
 }
