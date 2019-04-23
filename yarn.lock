@@ -922,10 +922,10 @@
   resolved "https://registry.npmjs.org/@mdx-js/tag/-/tag-0.20.3.tgz#9e2306040b6469248c45a5f5baf44d0014db0493"
   integrity sha512-Co3gUFmNDv9z2LjuvLTpTj2NaOSHFxuoZjohcG0YK/KfECO+Ns9idzThMYjfEDe1vAf4c824rqlBYseedJdFNw==
 
-"@regime/static@^0.0.5-alpha.16":
-  version "0.0.5-alpha.16"
-  resolved "https://registry.npmjs.org/@regime/static/-/static-0.0.5-alpha.16.tgz#6d53ea539cc5bf6aa4f42cc84016cc426046c8ce"
-  integrity sha512-oe5Mb5IcvpqJ5IYPR1Qss0lZY4yTYo5R9DtmhL8Dugh3Ts9CqUnYmI9ZXFRSBOevZSf5SLVWV7zMDK2F9XL40w==
+"@regime/static@^0.0.5-alpha.17":
+  version "0.0.5-alpha.17"
+  resolved "https://registry.npmjs.org/@regime/static/-/static-0.0.5-alpha.17.tgz#4f8c36a036d4826c2fed7c7626f71cb930ac29df"
+  integrity sha512-KgrWNW8vdb8X6zNALbzp2ZJDbCqJuwsqjS/OegezuGUXcMZOLx63Eu8RqA/XF8z041qznmVpzlFENhT7Q5EcoA==
   dependencies:
     "@babel/core" "7.1.2"
     "@babel/plugin-proposal-pipeline-operator" "^7.3.2"
