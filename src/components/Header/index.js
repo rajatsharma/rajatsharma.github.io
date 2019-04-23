@@ -42,7 +42,6 @@ export default () => (
       </A>
       <A
         href="/rajatsharma.pdf"
-        is="a"
         target="_blank"
         pl="10px"
         textDecoration="none"
