@@ -1,4 +1,4 @@
-import Helmet from 'helmet'; // eslint-disable-line
+import Helmet from 'helmet';
 import { Provider } from '@elementary/components';
 import Header from './components/Header';
 import Colophon from './colophon.mdx';
