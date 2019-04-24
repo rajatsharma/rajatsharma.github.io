@@ -922,10 +922,10 @@
   resolved "https://registry.npmjs.org/@mdx-js/tag/-/tag-0.20.3.tgz#9e2306040b6469248c45a5f5baf44d0014db0493"
   integrity sha512-Co3gUFmNDv9z2LjuvLTpTj2NaOSHFxuoZjohcG0YK/KfECO+Ns9idzThMYjfEDe1vAf4c824rqlBYseedJdFNw==
 
-"@regime/static@^0.0.5-alpha.21":
-  version "0.0.5-alpha.21"
-  resolved "https://registry.npmjs.org/@regime/static/-/static-0.0.5-alpha.21.tgz#c1b7619764e54545778be549c21edb3dbd06d328"
-  integrity sha512-ho7t8mY+yj0crzTtkVHGEhrR0wODN/Um8ie68p0d1jMEbSG3YgOU7PGvm65MSbLBybVtNls5ztOShYAEPucUxQ==
+"@regime/static@^0.0.5-alpha.22":
+  version "0.0.5-alpha.22"
+  resolved "https://registry.npmjs.org/@regime/static/-/static-0.0.5-alpha.22.tgz#29d2935eecfdc713126e7cab121a24432fce195c"
+  integrity sha512-4ZTVoGJssHCRhQ9Jue5pTb0B38b6dAl44TMiTZekBz9bqYf27YR0LydSovXGZAa3sbk9Cbp725rqO9Hf8mIjqg==
   dependencies:
     "@babel/core" "7.1.2"
     "@babel/plugin-proposal-pipeline-operator" "^7.3.2"
@@ -959,6 +959,7 @@
     gzip-size "5.0.0"
     jest "23.6.0"
     mini-css-extract-plugin "^0.5.0"
+    offline-plugin "^5.0.6"
     optimize-css-assets-webpack-plugin "5.0.1"
     postcss-flexbugs-fixes "4.1.0"
     postcss-loader "3.0.0"
