@@ -4,11 +4,6 @@ import Header from './components/Header';
 import Colophon from './colophon.mdx';
 import Fold from './components/Fold';
 
-/* eslint-disable-next-line */
-if (__CLIENT__) {
-  import('offline-plugin/runtime').then(runtime => runtime.default.install());
-}
-
 function App({ children }) {
   return (
     <>

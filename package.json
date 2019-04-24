@@ -6,14 +6,13 @@
   "enginite": "1.2.14",
   "devDependencies": {
     "@hellpack/eslint-config-hellpack": "^2.2.0",
-    "@regime/static": "^0.0.5-alpha.21",
+    "@regime/static": "^0.0.5-alpha.22",
     "eslint": "^5.15.3",
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-react": "^7.12.4",
     "node-sass": "^4.11.0",
-    "offline-plugin": "^5.0.6",
     "prettier": "^1.16.4"
   },
   "scripts": {
