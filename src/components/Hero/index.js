@@ -7,6 +7,6 @@ export default () => (
     f={({ theme }) => theme.breakpoints(['75px', '100px'])}
     className="roboto"
   >
-    Hi, I am Rajat Sharma
+    Hi, I am Rajat Sharma and I am a noob in react.
   </Text>
 );
