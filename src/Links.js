@@ -64,7 +64,7 @@ export default () => (
     />
     <ProjectCard
       dest="Rico"
-      link="rico-01"
+      link="rico"
       desc="A better way to clone a repository"
     />
     <ProjectCard
