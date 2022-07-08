@@ -7,12 +7,12 @@
 ```sh
 $ rico rajatsharma.github.io
 $ cd rajatsharma.github.io
-$ yarn
+$ pnpm i
 ```
 
 ### Development
 
 ```sh
-$ yarn dev
-$ yarn build
+$ pnpm run dev
+$ pnpm run build
 ```
