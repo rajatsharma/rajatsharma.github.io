@@ -5,21 +5,24 @@
   "license": "MIT",
   "enginite": "1.2.14",
   "devDependencies": {
-    "@hellpack/eslint-config-hellpack": "^2.2.0",
-    "@regime/static": "^0.0.5-alpha.25",
-    "eslint": "^5.15.3",
-    "eslint-plugin-import": "^2.16.0",
-    "eslint-plugin-jsx-a11y": "^6.2.1",
-    "eslint-plugin-prettier": "^3.0.1",
-    "eslint-plugin-react": "^7.12.4",
-    "node-sass": "^4.13.1",
-    "prettier": "^1.16.4"
+    "@types/node": "^18.0.3",
+    "@types/react": "^18.0.15",
+    "eslint-config-rsh": "github:rajatsharma/eslint-config-rsh",
+    "typescript": "^4.7.4"
   },
   "scripts": {
-    "dev": "regime-static dev",
-    "build": "regime-static build"
+    "dev": "next dev"
+  },
+  "eslintConfig": {
+    "extends": "rsh"
   },
   "dependencies": {
-    "@elementary/components": "^0.6.1-alpha.8"
+    "@elementary/components": "^0.6.1-alpha.8",
+    "@mdx-js/loader": "^2.1.2",
+    "@next/mdx": "^12.2.0",
+    "next": "^12.1.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "styled-components": "^5.3.5"
   }
 }
