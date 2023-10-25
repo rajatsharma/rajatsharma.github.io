@@ -20,7 +20,7 @@
     "@elementary/components": "^0.6.1-alpha.8",
     "@mdx-js/loader": "^2.1.2",
     "@next/mdx": "^12.2.0",
-    "next": "^12.1.0",
+    "next": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "styled-components": "^5.3.5"
